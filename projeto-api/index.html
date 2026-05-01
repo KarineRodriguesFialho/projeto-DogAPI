@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Dog API</h1>
+
+    <p>Digite uma raça de cachorro ou deixe vazio para buscar imagens aleatórias.</p>
+
+    <div class="formulario">
+        <input type="text" id="raca" placeholder="Ex: beagle, pug, husky">
+        <button onclick="buscarDados()">Buscar Imagens</button>
+    </div>
+
+    <p id="status">Status:</p>
+    <p id="quantidade">Quantidade de imagens:</p>
+
+    <div id="resultado">
+        <img id="imagem1" src="" alt="Imagem de cachorro 1">
+        <img id="imagem2" src="" alt="Imagem de cachorro 2">
+        <img id="imagem3" src="" alt="Imagem de cachorro 3">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
